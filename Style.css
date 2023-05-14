@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+
+body{
+    background-color: #c4b19d;
+    background-image:url("./assets/cafe.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:#FAFFFD;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+header {
+    background-color: #603722;
+    color: white;
+    padding: 0.1em;
+    border-radius: 0.5em;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: bisque;
+}
+
+a{
+    color: azure;
+}
+
+li{
+list-style: none;
+}
+
+.listita{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo{
+width: 13rem;
+height: 6.5rem;
+border-radius: 0.5rem;
+}
+
+.grande{
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 1em;
+    text-align: center;
+}
+
+.cafes{
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+button {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #708090;
+}
+
+footer {
+    background-color: #291F1E;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.5em
+}
+form{
+    box-shadow: #291F1E;
+}
+.barismo{
+    background-image: url("./assets/barismo.png");
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.beneficios{
+    text-align: left;
+    font-size: 2rem;
+}
+.cafeMolido{
+    border-radius: 0.5rem;
+    height:25rem;
+}
+.termos{
+    border-radius: 0.5rem;
+    height: 25rem;
+}
+
